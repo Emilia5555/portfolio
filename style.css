@@ -20,44 +20,80 @@
 
 
 /* Landing page */
+.bodyL{
+    background-color: #ffffff;
+}
+
 .navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: right;
-    background-color: aqua;
+    align-self: center;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    color: rgb(50, 46, 126);
+    height: 100px;
+    align-items: center;
+    font-size: 35px;
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 
 .flex-item{
-    font-family: 'Montserrat';
     font-weight: 600;
     padding: 20px;
+    -webkit-text-stroke: 0px black;
+
 }
 
 
 .top{
-    margin-top: 50px;
+    margin-top: 100px;
     display: flex;
     justify-content: space-around;
 }
 
 .abt{
-    width: 400px;
-    height:  400px;
-    background-color: aquamarine;
-    font-size: 50px;
+    width: 718px;
+    height:  718px;
+    background-color: rgb(255, 255, 255);
+    font-size: 100px;
     text-align: center;
+    border-right: 2px solid black;
+    color: #ffdef0;
+    -webkit-text-stroke: 4px black;
+    
+
 }
 
 .abt-img{
-    width: 400px;
-    height:  400px;
+    width: 718px;
+    height:  718px;
 }
 .info{
+    border: 2px solid black;
+    position: absolute;
+    left: 0;
+    right: 0;
 
+    padding-bottom: 50px;
     display: flex;
+    justify-content: space-around;
+    background-color: #ffdef0;
 }
 
 .blob{
-    padding: 50px;
+    font-size: 23px;
+    padding: 20px;
+    margin-top: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-color: white;
 }
 
 
