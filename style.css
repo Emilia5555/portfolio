@@ -1,0 +1,119 @@
+/* all */
+.title{
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Quicksand';
+
+}
+
+/*
+.border{
+    height: 117px;
+    width: 446px;
+    background-color: #555;
+    position: relative;
+
+}
+*/
+
+
+
+/* Landing page */
+.navbar{
+    display: flex;
+    justify-content: right;
+    background-color: aqua;
+}
+
+.flex-item{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    padding: 20px;
+}
+
+
+.top{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.abt{
+    width: 400px;
+    height:  400px;
+    background-color: aquamarine;
+    font-size: 50px;
+    text-align: center;
+}
+
+.abt-img{
+    width: 400px;
+    height:  400px;
+}
+.info{
+
+    display: flex;
+}
+
+.blob{
+    padding: 50px;
+}
+
+
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+/* Gallery */
+
+.pics{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pic{
+    width: 364px;
+    background-color: antiquewhite;
+
+}
+
+
+/* Contact*/
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+    font-family: 'arial';
+}
+
+label{
+    font-size: 30px;
+}
+
+input{
+    height: 50px;
+    width: 505px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.submit{
+    margin-bottom: 150px;
+    width: 200px;
+    align-content: center;
+    float: right;
+    background-color: #dfb1f8;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 21px;
+}
+
+::placeholder{
+    font-size: 21px;
+    justify-content: center;
+    color: rgb(189, 189, 189);
+}
