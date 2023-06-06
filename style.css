@@ -1,21 +1,19 @@
 /* all */
 .title{
     padding: 50px;
+    padding-top: 130px;
     text-align: center;
     font-size: 40px;
     font-family: 'Quicksand';
+    color: black;
+    -webkit-text-stroke: 0px black;
+    z-index: 1;
+
 
 }
 
-/*
-.border{
-    height: 117px;
-    width: 446px;
-    background-color: #555;
-    position: relative;
 
-}
-*/
+
 
 
 
@@ -30,21 +28,22 @@
     left: 0;
     right: 0;
     display: flex;
-    justify-content: right;
+    justify-content: center;
     align-self: center;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 250, 255);
     margin: 0;
-    color: rgb(50, 46, 126);
+    color: #000000;
     height: 100px;
     align-items: center;
     font-size: 35px;
     border-bottom: 2px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+
 }
 
 .flex-item{
     font-weight: 600;
-    padding: 20px;
-    -webkit-text-stroke: 0px black;
+    padding: 40px;
 
 }
 
@@ -87,7 +86,7 @@
 .blob{
     font-size: 23px;
     padding: 20px;
-    margin-top: 40px;
+    margin-top: 80px;
     padding-left: 40px;
     padding-right: 40px;
     width: 200px;
@@ -106,14 +105,29 @@ img{
 
 /* Gallery */
 
+
+.borderg{
+    height: 110px;
+    width: 408px;
+    position: absolute;
+    top: 180px;
+    left: 509px;
+    border: 2px solid #000000;
+    background-color: #f4d1ff; 
+    z-index: -1;
+}
+
+
 .pics{
     display: flex;
     justify-content: space-around;
+
 }
 
 .pic{
+    margin: 0px;
     width: 364px;
-    background-color: antiquewhite;
+    border: 2px solid black;
 
 }
 
@@ -142,7 +156,7 @@ input{
     width: 200px;
     align-content: center;
     float: right;
-    background-color: #dfb1f8;
+    background-color: #a3ffb1;
     border: 2px solid black;
     border-radius: 25px;
     font-size: 21px;
@@ -151,5 +165,16 @@ input{
 ::placeholder{
     font-size: 21px;
     justify-content: center;
-    color: rgb(189, 189, 189);
+    color: rgb(255, 198, 233);
+}
+
+.borderc{
+    height: 110px;
+    width: 408px;
+    position: absolute;
+    top: 180px;
+    left: 509px;
+    border: 2px solid #000000;
+    background-color: #a3ffb1; 
+    z-index: -1;
 }
