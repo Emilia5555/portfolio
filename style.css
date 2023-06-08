@@ -73,6 +73,7 @@
 .abt-img{
     width: 718px;
     height:  718px;
+    object-fit: cover;
 }
 .info{
     border: 2px solid black;
