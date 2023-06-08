@@ -12,7 +12,10 @@
 
 }
 
-
+.parent{
+    display: grid;
+    place-items: center;
+}
 
 
 
@@ -109,9 +112,10 @@ img{
 .borderg{
     height: 110px;
     width: 408px;
+    margin-top: 180px;
     position: absolute;
-    top: 180px;
-    left: 509px;
+    top: 0;
+
     border: 2px solid #000000;
     background-color: #f4d1ff; 
     z-index: -1;
@@ -168,12 +172,13 @@ input{
     color: rgb(255, 198, 233);
 }
 
+
 .borderc{
     height: 110px;
     width: 408px;
+    margin-top: 180px;
     position: absolute;
-    top: 180px;
-    left: 509px;
+    top: 0;
     border: 2px solid #000000;
     background-color: #a3ffb1; 
     z-index: -1;
